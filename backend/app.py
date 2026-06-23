@@ -16,7 +16,7 @@ app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://site-pagination.onrender.com", 
+        "https://site-pagination-zo67.vercel.app", 
     ],
     allow_credentials=True,
     allow_methods=["*"],
